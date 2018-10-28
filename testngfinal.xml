@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="url" value="http://leaftaps.com/opentaps" />
+	<parameter name="username" value="demosalesmanager" />
+	<parameter name="password" value="crmsfa" />
+	<test name="Test">
+		<classes>
+			<class name="wdmethodsfinal.Createlead" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
