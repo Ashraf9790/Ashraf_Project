@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
+import cucumber.api.java.en.When;
 import learnwdmethodsfinal.ProjectMethods;
 
 public class Home_Page extends ProjectMethods {
@@ -20,6 +21,7 @@ public class Home_Page extends ProjectMethods {
 	/*@FindBy(how=How.CLASS_NAME, using="decorativeSubmit")
 	WebElement eleLogout;
 	*/
+	@When("click on crmsfa")
 	public MyHome_Page clickCrmsfa()
 	{
 		click(eleCRMSFA);
