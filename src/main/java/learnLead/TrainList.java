@@ -33,11 +33,14 @@ public class TrainList {
 		
 		WebElement eachrow = rows.get(i);
 		List<WebElement> columndata = eachrow.findElements(By.tagName("td"));
-		String text = columndata.get(1).getText();
-		System.out.println(text);
+		String oslist = columndata.get(1).getText();
+		System.out.println(oslist);
 		
 		}
 				
+		
+		
+		
 	}
 
 }
