@@ -11,11 +11,7 @@ public class array {
 			System.out.println("enter the value of a");
 			a[i] = scan.nextInt();
 		}
-	/*for (int j = 0; j < a.length; j++) {
-		System.out.println(a[j]);
-	}
-	*/
-		for(int b:a) {
+			for(int b:a) {
 			System.out.println(b);
 		}
 	}}
